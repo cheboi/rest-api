@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 
-const mongoString = "mongodb+srv://Cheboi:123qwert@coding-blog.qfmuz.mongodb.net/blog?retryWrites=true&w=majority"
+const mongoString = "mongodb+srv://DB_USERNAME:DB_PASSWORD@coding-blog.qfmuz.mongodb.net/blog?retryWrites=true&w=majority"
 
 mongoose.connect(mongoString, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true})
 
